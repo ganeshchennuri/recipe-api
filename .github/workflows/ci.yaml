@@ -7,6 +7,6 @@ jobs:
     steps:  
       - uses: actions/checkout@v2
       - name: Running django unit test
-      - run: 
+      - run: |
         pip3 install django
         python3 manage.py test
